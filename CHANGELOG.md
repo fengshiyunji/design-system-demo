@@ -1,4 +1,4 @@
-## v0.1.1 (Wed Apr 15 2020)
+## v0.1.2 (Wed Apr 15 2020)
 
 #### Add release config for auto release
 
@@ -7,7 +7,7 @@
 - Add yarn.lock in ([@fengshiyunji](https://github.com/fengshiyunji))
 - Add release to CI ([@fengshiyunji](https://github.com/fengshiyunji))
 
-## v0.1.0 (Wed Apr 15 2020)
+## v0.1.1 (Wed Apr 15 2020)
 
 #### Created first version of the design system, with `Avatar`, `Badge`, `Button`, `Icon` and `Link` components
 
