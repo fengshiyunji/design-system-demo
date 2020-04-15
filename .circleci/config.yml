@@ -10,15 +10,15 @@ jobs:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
-      - run: yarn install
+      - run: npm install
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run: yarn test
+      - run: npm test
       - run: yarn chromatic test --app-code=p7pef0gz5ip --exit-zero-on-changes
       - run: |
           if [ $CIRCLE_BRANCH = "master" ]
           then
-            yarn release
+            npm run release
           fi
