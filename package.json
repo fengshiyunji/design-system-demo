@@ -1,5 +1,5 @@
 {
-  "name": "design-system-demo",
+  "name": "design-system-yll",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -52,5 +52,20 @@
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18",
     "cross-env": "^7.0.2"
-  }
+  },
+  "description": "The Learn Storybook design system is a subset of the full [Storybook design system](https://github.com/storybookjs/design-system/), created as a learning resource for those interested in learning how to write and publish a design system using best in practice techniques.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengshiyunji/design-system-demo.git"
+  },
+  "keywords": [
+    "design-system"
+  ],
+  "author": "Test team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengshiyunji/design-system-demo/issues"
+  },
+  "homepage": "https://github.com/fengshiyunji/design-system-demo#readme"
 }
