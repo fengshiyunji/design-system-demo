@@ -43,11 +43,8 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@babel/cli": "^7.8.4",
-=======
     "@storybook/addon-a11y": "^5.3.18",
->>>>>>> Add a11y but failed
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-docs": "^5.3.18",
     "@storybook/addon-knobs": "^5.3.18",
